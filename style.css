@@ -1,0 +1,224 @@
+/*=====================
+  GENERAL SETTINGS
+  ======================*/
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/*===================
+  HEADER
+  ===================*/
+
+  header{
+    background-color: #1b3a4b;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  header h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  header p{
+    font-size: 20px;
+  }
+
+
+  /*====================
+    MAIN CONTAINER
+    ===================*/
+    main{
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+
+
+    /*=========================
+      GENERAL SECTION SETTINGS
+      =========================*/
+
+      section{
+        background-color: white;
+        padding: 40px;
+        margin-top: 30px;
+        border-radius: 10px;
+      }
+
+   
+      section h2{
+        color: #1b3a4b;;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      section p{
+        margin-bottom: 15px;
+      }
+
+
+      /*=================
+       INTRODUCTION
+       =================*/
+     .intro{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+     }
+
+     .intro figure{
+        width: 40%;
+     }
+
+     .intro img{
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+     }
+
+     figcaption{
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+     }
+
+     .intro-text{
+        flex: 1;
+     }
+
+
+     /*====================
+       ACHIEVEMENTS
+       ===================*/
+
+       .achievement-list{
+          display: flex;
+          gap: 20px;
+       }
+
+       .achievement-list article{
+        flex: 1;
+        padding: 20px;
+        background-color: #eef3f5;
+        border-radius: 8px;
+       }
+
+       .achievement-list h3{
+        color: #1b3a4b;
+        margin-bottom: 10px;
+       }
+
+
+       /*====================
+        TIMELINE
+        ====================*/
+
+        .timeline-item{
+            border-left: 4px solid #1b3a4b;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        .timeline-item h3{
+            color: #1b3a4b;
+            margin-bottom: 5px;
+        }
+
+        /*===================
+         LEGACY
+         ===================*/
+         .legacy{
+            text-align: center;
+         }
+
+
+
+         /*===================
+           FOOTER
+           ===================*/
+           footer{
+            background-color: #1b3a4b;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+           }
+
+           footer p{
+            margin-bottom: 5px;
+           }
+
+
+
+           /* =========================
+              MOBILE RESPONSIVE DESIGN
+               ========================= */
+
+           @media (max-width: 700px) {
+
+            header {
+             padding: 40px 20px;
+         }
+
+
+        header h1 {
+        font-size: 36px;
+         }
+
+
+        header p {
+           font-size: 17px;
+        }
+
+
+       main {
+        margin: 20px auto;
+        padding: 0 15px;
+       }
+
+
+        section {
+        padding: 25px;
+       }
+
+
+    .intro {
+        display: block;
+    }
+
+
+    .intro figure {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+    .achievement-list {
+        display: block;
+    }
+
+
+    .achievement-list article {
+        margin-bottom: 15px;
+    }
+
+
+    section h2 {
+        font-size: 26px;
+    }
+
+}
